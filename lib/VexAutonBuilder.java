@@ -334,11 +334,6 @@ public class VexAutonBuilder {
 			input.add("add");
 		}
 		//Default values:
-		//REMOVE THESE BEFORE RELEASE
-		importantVars.set(0,new Double(10.0));
-		importantVars.set(1,new Double(5.0));
-		importantVars.set(2,new Double(1.0));
-		importantVars.set(3,new Double(2.0));
 		//Time to complete full circle, add changer to GUI soon
 		importantVars.set(4,new Double(3.0));
 
