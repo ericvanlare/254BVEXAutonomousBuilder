@@ -505,6 +505,15 @@ public class VexAutonBuilder2 {
 		robot.add(lift2);
 		*/
 
+		JButton robotConfigButton = new JButton("Robot Config");
+		robotConfigButton.setBounds(163,170,107,25);
+		robotConfigButton.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				//make frame appear n stuff
+			}
+		});
+		robot.add(robotConfigButton);
+
 		JButton instructions = new JButton("Instructions");
 		instructions.setBounds(267,170,100,25);
 		instructions.addActionListener(new ActionListener() {
